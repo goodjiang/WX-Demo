@@ -1,0 +1,5 @@
+打开控制台查看
+
+<view class='btnstyle' catchtap='callbackrequest'>回调请求</view>
+
+<view class='btnstyle' catchtap='premiserequest'>premise请求</view>

@@ -1,0 +1,6 @@
+.picker_view_style{
+    height: 600rpx;
+}
+.line_height{
+    line-height: 100rpx
+}

@@ -1,0 +1,4 @@
+.swiper{
+	width: 700rpx;
+	box-sizing: border-box;
+}

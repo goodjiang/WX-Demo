@@ -1,0 +1,3 @@
+<picker mode="selector" bindchange="PickerSchoolChange" value="{{mindex}}" range="{{arraySchool}}">
+    <view>当前选择：{{arraySchool[mindex]}}</view>
+</picker>

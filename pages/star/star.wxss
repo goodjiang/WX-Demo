@@ -1,0 +1,35 @@
+ /* .star-image {
+    position: absolute;
+    top: 50rpx;
+    width: 150rpx;
+    height: 150rpx;
+     src: "../../images/normal.png"; 
+}
+.item {
+    position: absolute;
+    top: 50rpx;
+    width: 75rpx;
+    height: 150rpx;
+}  */
+
+.mstar{
+    display: flex;
+    flex-direction: row;
+}
+.stars-item{
+    position: relative;
+}
+
+ .star-image {
+    width: 150rpx;
+    height: 150rpx;
+    display: block;
+}
+.star-dahai {
+    width: 150rpx;
+    height: 150rpx;
+    /* background-color: red; */
+    position: absolute;
+    top: 0rpx;
+    left: 0rpx;
+}

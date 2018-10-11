@@ -1,0 +1,29 @@
+<navigator url="/pages/test/test">测试</navigator>
+
+<navigator url="/pages/smzq/smzq">生命周期</navigator>
+
+<navigator url="/pages/network/network">网络请求</navigator>
+
+<navigator url="/pages/star/star">五星评分</navigator>
+
+<navigator url="/pages/showtoast/showtoast">弹出提示</navigator>
+
+<navigator url="/pages/timeout/timeout">验证码倒计时</navigator>
+
+<navigator url="/pages/formtable/formtable">表单提交</navigator>
+
+<navigator url='/pages/popup/popup'>底部弹窗</navigator>
+
+<navigator url='/pages/lun-bo-tu-one/lun-bo-tu-one'>轮播图01</navigator>
+
+<navigator url='/pages/fullpage/fullpage'>fullpage</navigator>
+
+<navigator url='/pages/picker/picker'>picker</navigator>
+
+<navigator url='/pages/picker-view/picker-view'>picker-view</navigator>
+
+<navigator url='/pages/scroll-view/scroll-view'>scroll-view</navigator>
+
+<navigator url="/pages/swiper/swiper">swiper</navigator>
+
+

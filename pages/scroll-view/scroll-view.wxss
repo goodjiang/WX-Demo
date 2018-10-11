@@ -1,0 +1,19 @@
+.scrollView{
+    width: 750rpx;
+    height:200rpx;
+    white-space:nowrap;
+}
+.curColor{
+    display:inline-block;
+    width: 100%;
+    height:100%;
+}
+.curColor01{
+    background-color: red;
+}
+.curColor02{
+    background-color: green;
+}
+.curColor03{
+    background-color: blue;
+}

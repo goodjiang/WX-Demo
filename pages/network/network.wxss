@@ -1,0 +1,7 @@
+.btnstyle{
+    background-color: #eee;
+    border-radius: 5rpx;
+    width: 400rpx;
+    margin-top: 30rpx;
+    text-align: center;
+}

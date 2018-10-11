@@ -1,0 +1,15 @@
+<view class='swiper'>
+    <view 
+		bindtouchstart='swiperTouchstart' 
+		bindtouchmove='swiperTouchmove' 
+		bindtouchend='swiperTouchend' 
+		style='width: {{allWidth}}px; height:{{itemWidth*1.4}}px; padding-left: {{(winWidth-itemWidth)/2}}px;'>
+        <block wx:for="{{images}}" wx:key="unique">
+			<image
+				animation="{{curIndex == index ? animationToLarge : animationToSmall}}" 
+				style='width: {{itemWidth}}px; height: {{itemWidth*1.4}}px; transform: scale({{curIndex == index ? 1 : 0.7}});'
+				src='{{item}}'>
+			</image>
+        </block>
+    </view>
+</view>

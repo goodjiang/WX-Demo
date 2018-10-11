@@ -1,0 +1,30 @@
+ .slide-image{
+    width: 750rpx;
+    height: 300rpx;
+}
+.lunbotu{
+    position: relative;
+}
+
+.dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 266rpx;
+    display: flex;
+    justify-content: center;
+}
+
+.dots .dot {
+    margin: 0 8rpx;
+    width: 14rpx;
+    height: 14rpx;
+    background: #eee;
+    border-radius: 8rpx;
+    transition: all 0.6s;
+}
+
+.dots .dot.active {
+    width: 30rpx;
+    background: yellow;
+}

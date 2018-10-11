@@ -1,0 +1,19 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/network/network",
+        "pages/swiper/swiper",
+        "pages/smzq/smzq",
+        "pages/star/star",
+        "pages/test/test",
+        "pages/showtoast/showtoast",
+        "pages/timeout/timeout",
+        "pages/formtable/formtable",
+        "pages/picker/picker",
+        "pages/scroll-view/scroll-view",
+        "pages/picker-view/picker-view",
+        "pages/fullpage/fullpage",
+        "pages/popup/popup",
+		"pages/lun-bo-tu-one/lun-bo-tu-one"
+    ]
+}

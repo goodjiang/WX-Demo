@@ -1,0 +1,2 @@
+<view class='btnstyle' catch:tap="showtoast">showtoast</view>
+<view class="message {{showMessage ? 'fade-in' : ''}}" hidden="{{!showMessage}}">{{messageContent}}</view>

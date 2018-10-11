@@ -1,0 +1,1 @@
+<view class='clickme' catchtap="clickmeTap">{{doText}}</view>

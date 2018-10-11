@@ -1,0 +1,6 @@
+navigator{
+    background-color: #eee;
+    padding: 10rpx;
+    margin-top: 10rpx;
+    text-align: center;
+}

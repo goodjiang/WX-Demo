@@ -1,0 +1,8 @@
+<view catchtap='openTap'>开</view>
+
+<view hidden='{{isPopup}}' class='masking' catchtap='closeTap'></view>
+<view class='popup' animation="{{popupAnimation}}">
+    <view class='red'></view>
+    <view class='green'></view>
+    <view class='blue'></view>
+</view>

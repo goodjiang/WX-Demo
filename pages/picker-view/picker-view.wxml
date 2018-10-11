@@ -1,0 +1,12 @@
+<picker-view indicator-style="height: 100rpx;" class='picker_view_style' value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+        <block wx:for="{{cityData}}" wx:key="unique">
+            <view class='line_height'>{{item}}</view>
+        </block>
+    </picker-view-column>
+    <picker-view-column>
+        <block wx:for="{{countyData}}" wx:key="unique">
+            <view class='line_height'>{{item}}</view>
+        </block>
+    </picker-view-column>
+</picker-view>

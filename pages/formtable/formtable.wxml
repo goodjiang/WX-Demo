@@ -1,0 +1,8 @@
+<form catch:submit="mgetvlue">
+    <input name="liuyi" type='text'></input>
+    <input name="chener" type='text'></input>
+    <input name="zhangsan" type='text'></input>
+    <textarea name="mcontent" placeholder="请输入" maxlength='-1'></textarea>
+    <button form-type='submit'>提交</button>
+</form>
+

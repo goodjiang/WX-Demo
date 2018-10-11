@@ -1,0 +1,7 @@
+.clickme{
+    width: 200rpx;
+    height: 100rpx;
+    background-color: green;
+    text-align: center;
+    line-height: 100rpx;
+}
