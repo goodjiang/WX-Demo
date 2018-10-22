@@ -1,0 +1,16 @@
+<view catchtap='addLineTap'>点我加一行</view>
+
+<block wx:for="{{addLine}}" wx:key="unique">
+	<view class='select_box'>
+		<view class='select' data-add-line="{{index}}" catchtap='selectTap'>
+			<text class='select_text'>{{content}}</text>
+			<image class='select_img {{show&&"select_img_rotate"}}' src='/images/down-arrow.png'></image>
+		</view>
+		<view class='option_box' style='height:{{show?(repContent.length>5?300:repContent.length*60):0}}rpx;'>
+			<view class="box" wx:for='{{repContent}}' wx:key="this" data-index="{{index}}" catchtap='optionTap'>
+				<text class='option' style='{{index==repContent.length-1&&"border:0;"}}'>{{item.message}}</text>
+				<image class="multi-img" src="{{item.sureid ? hasSelect : noSelect}}"/>
+			</view>
+		</view>
+	</view>
+</block>
