@@ -6,3 +6,5 @@
     <button form-type='submit'>提交</button>
 </form>
 
+
+<input name="lisi" type='text' bindinput="lisiInfo"></input>
