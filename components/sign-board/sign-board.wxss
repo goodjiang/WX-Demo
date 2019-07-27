@@ -1,0 +1,80 @@
+.wrapper {
+    width: 750rpx;
+    height: 95vh;
+    box-sizing: border-box;
+    margin: 30rpx 0;
+    overflow: hidden;
+    background-color: #fff;
+	display: flex;
+	flex-direction: row;
+}
+
+.hand-btn {
+    width: 100rpx;
+    height: 95vh;
+    box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.hand-center {
+    width: 550rpx;
+    height: 95vh;
+    box-sizing: border-box;
+    border: 2rpx dashed #e9e9e9;
+}
+
+.hand-right {
+    width: 100rpx;
+    height: 95vh;
+    box-sizing: border-box;
+	color: #666;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.hand-writing {
+	width: 550rpx;
+    height: 95vh;
+    background: #fff;
+}
+
+.hand-btn .sb-btn{
+	width: 100rpx;
+	height: 64rpx;
+	text-align: center;
+	line-height: 64rpx;
+	transform: rotate(90deg);
+	color: #fff;
+	background-color: #008ef6;
+	border-radius: 8rpx;
+	font-size: 28rpx;
+}
+
+.hand-right .hand-title{
+	transform: rotate(90deg);
+}
+
+.black-select {
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.black-select .color_select {
+    width: 90rpx;
+    height: 90rpx;
+}
+
+.red-select {
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.red-select .color_select {
+    width: 90rpx;
+    height: 90rpx;
+}

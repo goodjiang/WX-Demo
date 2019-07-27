@@ -1,0 +1,13 @@
+<view class="wrapper">
+	<view class="hand-btn">
+		<view catchtap="retDraw" class="sb-btn">重写</view>
+		<view catchtap="saveCanvasAsImg" class="sb-btn">保存</view>
+		<view catchtap="previewCanvasImg" class="sb-btn">预览</view>
+		<view catchtap="uploadCanvasImg" class="sb-btn">上传</view>
+		<view catchtap="subCanvas" class="sb-btn">完成</view>
+	</view>
+	<view class="hand-center">
+		<canvas class="hand-writing" disable-scroll="true" bindtouchstart="uploadScaleStart" bindtouchmove="uploadScaleMove" bindtouchend="uploadScaleEnd" bindtap="mouseDown" canvas-id="handWriting"></canvas>
+	</view>
+	<view class="hand-right"><view class="hand-title">手写板</view></view>
+</view>

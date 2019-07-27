@@ -1,0 +1,1 @@
+<sing-board bind:hiddenSignBoard="hiddenSignBoard"></sing-board>

@@ -1,0 +1,5 @@
+{
+	"usingComponents": {
+		"sing-board": "/components/sign-board/sign-board"
+	}
+}
