@@ -28,4 +28,6 @@
 
 <navigator url="/pages/sign-board/sign-board">书写板</navigator>
 
+<navigator url="/pages/worker/worker">多线程</navigator>
+
 

@@ -14,7 +14,9 @@
 		"pages/picker-view/picker-view",
 		"pages/fullpage/fullpage",
 		"pages/popup/popup",
-		"pages/lun-bo-tu-one/lun-bo-tu-one"
+		"pages/lun-bo-tu-one/lun-bo-tu-one",
+		"pages/worker/worker"
 	],
+	"workers": "workers",
 	"sitemapLocation": "sitemap.json"
 }
