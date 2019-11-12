@@ -1,0 +1,22 @@
+page{
+  background: #f1f1f1;
+}
+.cont{
+  background: #ffffff;
+  margin-top: 20rpx;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+}
+checkbox .wx-checkbox-input{
+  border-radius: 50%;
+}
+.all{
+  margin-top: 20rpx;
+  background: #ffffff;
+}

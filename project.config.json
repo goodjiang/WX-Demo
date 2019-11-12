@@ -9,7 +9,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.3.0",
-	"appid": "wxd712095a65f29ee8",
+	"appid": "wxc7cc864bfb113d80",
 	"projectname": "WeChatDemo",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
@@ -22,9 +22,37 @@
 			"current": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"plugin": {
 			"current": -1,
 			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "签字板",
+					"pathName": "pages/sign-board/sign-board",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "下拉的动画",
+					"pathName": "pages/xialaAnimation/xialaAnimation",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全选",
+					"pathName": "pages/quanxuan/quanxuan",
+					"scene": null
+				}
+			]
 		}
 	}
 }

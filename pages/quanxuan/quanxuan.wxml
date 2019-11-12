@@ -1,0 +1,27 @@
+<block wx:for="{{list}}" wx:key="{{item.id}}" wx:for-index="idx">
+  <view class='cont'>
+    <checkbox-group bindchange="checkboxChange" data-checkid = "{{item.id}}">
+      <label>
+        <checkbox checked="{{item.checkeditem}}"  color='#3B9EF5'/>
+      </label>
+    </checkbox-group>
+    <view class='column'>
+      <text>{{item.shopName}} {{item.price}}</text>
+      <text>{{item.guige}}</text>
+      <text>{{item.desc}}</text>
+    </view>
+    <view class='count'>
+      <text>-</text>
+      <text>{{shopNum}}</text>
+      <text>+</text>
+    </view>
+  </view>
+</block>
+<view class='all'>
+  <checkbox-group bindchange="checkedAll">
+    <label>
+      <checkbox checked="{{checked_all}}"  color='#3B9EF5'/>
+    </label>
+    全选
+  </checkbox-group>
+</view>

@@ -1,0 +1,18 @@
+<view>
+    <view id='box' class="{{first_click?'show':'hide'}} {{state?'open':'close'}} ">
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+      <view>1</view>
+    </view>
+    <view bindtap='btn'>点击下拉</view>
+</view>

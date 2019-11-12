@@ -3,7 +3,6 @@
 		"pages/index/index",
 		"pages/network/network",
 		"pages/swiper/swiper",
-		"pages/smzq/smzq",
 		"pages/star/star",
 		"pages/sign-board/sign-board",
 		"pages/showtoast/showtoast",
@@ -15,7 +14,11 @@
 		"pages/fullpage/fullpage",
 		"pages/popup/popup",
 		"pages/lun-bo-tu-one/lun-bo-tu-one",
-		"pages/worker/worker"
+		"pages/xialaAnimation/xialaAnimation",
+    "pages/quanxuan/quanxuan",
+    "pages/shuxieban/shuxieban"
+    
+   
 	],
 	"workers": "workers",
 	"sitemapLocation": "sitemap.json"
